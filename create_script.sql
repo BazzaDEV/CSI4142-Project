@@ -136,8 +136,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".fact_table
     health_id INTEGER,
     event_id INTEGER,
     quality_of_life_index NUMERIC,
-    development_index NUMERIC,
     human_development_index NUMERIC,
+    education_index NUMERIC,
     FOREIGN KEY(country_id) 
     REFERENCES country(country_id),
     FOREIGN KEY(date_id) 
