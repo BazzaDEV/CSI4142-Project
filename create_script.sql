@@ -1,5 +1,6 @@
 CREATE TABLE IF NOT EXISTS "CSI4142".country
 (
+    surrogate_key INTEGER,
     country_id SERIAL PRIMARY KEY,
     country_name VARCHAR(255),
     land_area INTEGER,
@@ -17,6 +18,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".country
 
 CREATE TABLE IF NOT EXISTS "CSI4142".date_
 (
+    surrogate_key INTEGER,
     date_id SERIAL PRIMARY KEY,
     quarter INTEGER,
     month_ VARCHAR(255),
@@ -26,6 +28,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".date_
 
 CREATE TABLE IF NOT EXISTS "CSI4142".population_
 (
+    surrogate_key INTEGER,
     population_id SERIAL PRIMARY KEY,
     life_expectancy_female NUMERIC,
     life_expectancy_male NUMERIC,
@@ -47,6 +50,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".population_
 
 CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
 (
+    surrogate_key INTEGER,
     living_conditions_id SERIAL PRIMARY KEY,
     access_electricity NUMERIC,
     coverage_social_insurance_programs NUMERIC,
@@ -68,6 +72,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
 
 CREATE TABLE IF NOT EXISTS "CSI4142".education
 (
+    surrogate_key INTEGER,
     education_id SERIAL PRIMARY KEY,
     enrollment_primary NUMERIC,
     enrollment_secondary NUMERIC,
@@ -96,6 +101,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".education
 
 CREATE TABLE IF NOT EXISTS "CSI4142".health
 (
+    surrogate_key INTEGER,
     health_id SERIAL PRIMARY KEY,
     birthr_rate NUMERIC,
     capital_Health_expenditure NUMERIC,
@@ -119,6 +125,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".health
 
 CREATE TABLE IF NOT EXISTS "CSI4142".event_
 (
+    surrogate_key INTEGER,
     event_id SERIAL PRIMARY KEY,
     event_name VARCHAR(255),
     event_category VARCHAR(255),
@@ -128,29 +135,29 @@ CREATE TABLE IF NOT EXISTS "CSI4142".event_
 
 CREATE TABLE IF NOT EXISTS "CSI4142".fact_table
 (
-    country_id INTEGER,
-    date_id INTEGER,
-    population_id INTEGER,
-    living_conditions_id INTEGER,
-    education_id INTEGER,
-    health_id INTEGER,
-    event_id INTEGER,
+    country_surrogate INTEGER,
+    date_surrogate INTEGER,
+    population_surrogate INTEGER,
+    living_conditions_surrogate INTEGER,
+    education_surrogate INTEGER,
+    health_surrogate INTEGER,
+    event_surrogate INTEGER,
     quality_of_life_index NUMERIC,
     human_development_index NUMERIC,
     education_index NUMERIC,
-    FOREIGN KEY(country_id) 
-    REFERENCES country(country_id),
-    FOREIGN KEY(date_id) 
-    REFERENCES date_(date_id),
-    FOREIGN KEY(population_id) 
-    REFERENCES population_(population_id),
-    FOREIGN KEY(living_conditions_id) 
-    REFERENCES living_conditions(living_conditions_id),
-    FOREIGN KEY(education_id) 
-    REFERENCES education(education_id),
-    FOREIGN KEY(health_id) 
-    REFERENCES health(health_id),
-    FOREIGN KEY(event_id) 
-    REFERENCES event_(event_id),
-	CONSTRAINT fact_pkey PRIMARY KEY(country_id,date_id,population_id,living_conditions_id,education_id,health_id,event_id)
+    FOREIGN KEY(country_surrogate) 
+    REFERENCES country(surrogate_key),
+    FOREIGN KEY(date_surrogate)
+    REFERENCES date_(surrogate_key),
+    FOREIGN KEY(population_surrogate) 
+    REFERENCES population_(surrogate_key),
+    FOREIGN KEY(living_conditions_surrogate) 
+    REFERENCES living_conditions(surrogate_key),
+    FOREIGN KEY(education_surrogate) 
+    REFERENCES education(surrogate_key),
+    FOREIGN KEY(health_surrogate) 
+    REFERENCES health(surrogate_key),
+    FOREIGN KEY(event_surrogate) 
+    REFERENCES event_(surrogate_key),
+	CONSTRAINT fact_pkey PRIMARY KEY(country_surrogate,date_surrogate,population_surrogate,living_conditions_surrogate,education_surrogate,health_surrogate,event_surrogate)
 )
