@@ -1,163 +1,163 @@
-﻿Series Name,Series Code,Country Name,Country Code,2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,United States,USA,14,14.3,14.3,14,13.5,13,12.7,12.6,12.4,12.5,12.4,12.2,11.8,11.6,11.4,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Canada,CAN,10.6,10.9,11.2,11.3,11.3,11.1,11,11,10.8,10.8,10.7,10.6,10.3,10.1,9.9,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Mexico,MEX,21.741,21.343,20.973,20.635,20.327,20.042,19.766,19.488,19.198,18.892,18.573,18.245,17.918,17.602,17.297,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Central African Republic,CAF,40.692,40.427,40.111,39.749,39.346,38.905,38.431,37.933,37.427,36.927,36.454,36.029,35.66,35.348,35.09,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Chad,TCD,49.325,48.848,48.327,47.772,47.194,46.603,46.01,45.42,44.841,44.276,43.73,43.201,42.683,42.172,41.665,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Mali,MLI,48.444,48.191,47.853,47.434,46.939,46.379,45.769,45.129,44.482,43.843,43.226,42.638,42.078,41.543,41.035,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,"Iran, Islamic Rep.",IRN,17.401,17.52,17.663,17.823,17.986,18.154,18.335,18.533,18.739,18.93,19.066,19.102,19.011,18.783,18.42,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Ukraine,UKR,9,9.8,10.2,11,11.1,10.8,11,11.4,11.1,10.8,10.7,10.3,9.4,8.7,8.1,..
-"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,Thailand,THA,12.87,12.632,12.407,12.188,11.971,11.757,11.548,11.351,11.169,10.999,10.836,10.676,10.513,10.344,10.168,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,United States,USA,0.65363973,0.66477114,0.717116,0.76118088,0.70491374,0.68704522,0.7024169,0.70865661,0.69361621,0.64768839,0.64494258,0.63860589,0.67145181,0.66255105,0.67703497,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Canada,CAN,0.4640432,0.48383656,0.61307919,0.47915494,0.54793304,0.58610934,0.55770832,0.55659932,0.48322916,0.43591252,0.45552984,0.42354,0.38220248,0.38234833,0.39864108,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Mexico,MEX,0.12093282,0.11649629,0.09540497,0.12782037,0.22113964,0.19516744,0.11883423,0.1054229,0.08809453,0.0933276,0.07663224,0.08285465,0.07024645,0.08476871,0.06373785,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Central African Republic,CAF,..,..,..,..,..,..,..,..,..,..,0.00585614,0.01687354,0.03225806,0.20130682,..,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Chad,TCD,..,..,..,..,..,..,0.76795876,..,..,..,..,..,..,..,..,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Mali,MLI,..,..,..,..,..,..,..,..,0.24905804,0.31472626,0.24554077,0.30369636,0.18864341,0.04446506,..,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,"Iran, Islamic Rep.",IRN,0.11898085,0.14640558,0.14948277,0.18947878,0.14736469,0.13986275,0.17509484,0.0876886,0.09092296,0.19252566,..,..,..,..,..,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Ukraine,UKR,0.07809397,0.00165373,0.49199405,0.35901695,0.18487377,0.25858155,0.30162001,0.2822485,0.26446491,0.12670267,0.35493177,0.26909873,0.30882493,0.28267708,0.27389196,..
-Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,Thailand,THA,0.1457645,0.16260447,0.1549878,0.21097681,0.23032501,0.17112526,0.27220535,0.31526989,0.23578981,0.23681293,0.22154549,0.3167206,0.2281076,0.23268826,0.19367595,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,United States,USA,..,..,..,..,..,6.20237374659824,..,..,..,..,6.30596510151972,..,..,..,6.55296093578568,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Canada,CAN,..,..,..,..,..,6.0490614475443,..,..,..,..,5.77819938098487,..,..,..,5.41911458940873,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Mexico,MEX,..,..,..,..,..,12.3581068270841,..,..,..,..,10.1501120910894,..,..,..,10.4962551679616,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Central African Republic,CAF,..,..,..,..,..,7.29432692544111,..,..,..,..,9.06562121961068,..,..,..,9.02071399710817,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Chad,TCD,..,..,..,..,..,7.38989201480473,..,..,..,..,8.7275506788525,..,..,..,9.56702741121068,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Mali,MLI,..,..,..,..,..,7.54318109727263,..,..,..,..,8.4864213808825,..,..,..,9.42341482317176,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,"Iran, Islamic Rep.",IRN,..,..,..,..,..,15.002909102333,..,..,..,..,11.6151208049467,..,..,..,10.6036644428042,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Ukraine,UKR,..,..,..,..,..,5.26231235496082,..,..,..,..,5.32164646274035,..,..,..,5.01101815960154,..
-"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,Thailand,THA,..,..,..,..,..,12.6378355600842,..,..,..,..,10.4220010162941,..,..,..,9.51406469826445,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,United States,USA,8.3,8.1,8,8.1,7.9,7.995,8.073,8.102,8.215,8.237,8.44,8.493,8.638,8.678,8.7,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Canada,CAN,7.1,7,7.1,7.2,7.1,7,7.1,7.1,7.2,7.3,7.4,7.4,7.5,7.7,7.6,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Mexico,MEX,4.792,4.869,4.961,5.06,5.163,5.266,5.369,5.471,5.572,5.67,5.763,5.851,5.933,6.01,6.082,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Central African Republic,CAF,18.5,18.137,17.727,17.283,16.816,16.329,15.817,15.28,14.725,14.164,13.621,13.119,12.671,12.289,11.974,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Chad,TCD,16.636,16.295,15.909,15.489,15.047,14.598,14.161,13.752,13.38,13.053,12.77,12.527,12.309,12.104,11.907,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Mali,MLI,15.112,14.492,13.916,13.387,12.91,12.481,12.09,11.72,11.358,11.001,10.649,10.307,9.984,9.686,9.412,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,"Iran, Islamic Rep.",IRN,5.041,5.039,5.025,4.996,4.955,4.905,4.857,4.82,4.799,4.795,4.805,4.821,4.835,4.843,4.842,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Ukraine,UKR,16.6,16.2,16.4,16.3,15.3,15.2,14.5,14.5,14.6,14.7,14.9,14.7,14.5,14.8,14.7,..
-"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,Thailand,THA,7.123,7.141,7.154,7.164,7.175,7.191,7.213,7.241,7.279,7.327,7.389,7.467,7.559,7.666,7.786,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,United States,USA,13,14,14,14,15,15,15,16,16,16,18,19,19,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Canada,CAN,11,11,11,12,12,11,11,11,11,11,11,10,10,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Mexico,MEX,54,51,49,49,51,46,43,41,39,38,36,34,33,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Central African Republic,CAF,1200,1170,1130,1090,1050,1000,981,963,1030,961,912,890,829,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Chad,TCD,1330,1340,1300,1310,1270,1240,1210,1190,1170,1170,1160,1140,1140,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Mali,MLI,691,675,663,661,661,660,663,663,663,642,620,590,562,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,"Iran, Islamic Rep.",IRN,34,32,30,28,25,22,19,18,17,17,17,16,16,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Ukraine,UKR,33,31,33,33,27,25,23,24,23,24,21,20,19,..,..,..
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,Thailand,THA,43,42,42,43,43,42,41,39,39,38,38,37,37,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,United States,USA,..,..,..,..,..,..,..,..,..,..,..,13.3,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Canada,CAN,..,..,..,..,..,..,..,..,..,..,..,7,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Mexico,MEX,..,..,..,..,..,..,..,..,..,..,..,36.7,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Central African Republic,CAF,..,..,..,..,..,..,..,..,..,..,..,211.9,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Chad,TCD,..,..,..,..,..,..,..,..,..,..,..,280.1,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Mali,MLI,..,..,..,..,..,..,..,..,..,..,..,209.1,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,"Iran, Islamic Rep.",IRN,..,..,..,..,..,..,..,..,..,..,..,50.9,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Ukraine,UKR,..,..,..,..,..,..,..,..,..,..,..,70.7,..,..,..,..
-"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,Thailand,THA,..,..,..,..,..,..,..,..,..,..,..,61.5,..,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,United States,USA,560,570,570,580,600,600,610,620,630,640,680,730,720,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Canada,CAN,39,40,41,44,44,42,43,44,42,41,41,40,40,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Mexico,MEX,1200,1200,1100,1100,1200,1100,980,940,880,870,810,770,740,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Central African Republic,CAF,2000,1900,1900,1800,1800,1700,1700,1600,1700,1600,1500,1500,1400,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Chad,TCD,6600,6900,6800,7000,7000,7000,6900,6900,7000,7100,7100,7200,7300,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Mali,MLI,4300,4300,4300,4400,4500,4600,4700,4800,4900,4800,4700,4500,4400,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,"Iran, Islamic Rep.",IRN,410,400,380,360,330,290,260,250,250,250,250,250,250,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Ukraine,UKR,140,140,150,160,140,120,120,120,110,110,97,89,83,..,..,..
-Number of maternal deaths,SH.MMR.DTHS,Thailand,THA,360,350,350,350,340,330,320,300,300,290,280,270,270,..,..,..
-Number of under-five deaths,SH.DTH.MORT,United States,USA,32674,32448,32061,31513,30828,30050,29249,28469,27757,27137,26612,26176,25817,25515,25248,24976
-Number of under-five deaths,SH.DTH.MORT,Canada,CAN,2088,2108,2126,2139,2147,2148,2142,2129,2110,2086,2061,2035,2009,1984,1958,1929
-Number of under-five deaths,SH.DTH.MORT,Mexico,MEX,53034,50831,48819,47006,45349,43803,42317,40891,39492,38098,36715,35358,33972,32617,31317,30081
-Number of under-five deaths,SH.DTH.MORT,Central African Republic,CAF,25553,25511,25379,25145,24640,24073,23342,22588,21915,21124,20230,19324,18713,18182,17534,17069
-Number of under-five deaths,SH.DTH.MORT,Chad,TCD,78507,79003,79304,79353,79208,78909,78495,78005,77466,76938,76381,75645,74782,73875,72864,71959
-Number of under-five deaths,SH.DTH.MORT,Mali,MLI,91774,91104,90290,89389,88269,87031,85633,84107,82526,80914,79294,77759,76352,74990,73747,72521
-Number of under-five deaths,SH.DTH.MORT,"Iran, Islamic Rep.",IRN,31528,29998,28626,27366,26272,25398,24608,24024,23580,23148,22744,22301,21814,21157,20430,19577
-Number of under-five deaths,SH.DTH.MORT,Ukraine,UKR,6191,6149,6106,6034,5913,5738,5514,5258,4993,4729,4470,4219,3973,3735,3509,3295
-Number of under-five deaths,SH.DTH.MORT,Thailand,THA,14588,13723,12927,12183,11481,10826,10199,9616,9079,8581,8106,7658,7237,6839,6455,6094
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,United States,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,2.6036,..,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Canada,CAN,..,1.9086,..,1.959,..,2.0384,..,2.3962,2.4509,2.4961,2.5388,2.3105,2.6102,2.4251,2.4425,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Mexico,MEX,3.5303,3.762,3.843,3.8988,3.9581,3.9972,4.2008,4.2236,4.311,4.4526,4.6493,4.6488,4.7654,4.8496,..,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Central African Republic,CAF,..,..,..,0.0405,0.0473,..,..,..,..,..,0.0721,..,..,..,..,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Chad,TCD,..,0.0352,..,..,..,..,..,0.0413,0.0433,0.0445,0.0493,0.0371,0.0434,..,0.0542,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Mali,MLI,..,..,0.0776,..,0.0923,0.1021,0.1037,0.1071,..,..,..,0.1395,..,0.1286,..,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,"Iran, Islamic Rep.",IRN,0.8869,0.5361,..,..,..,..,..,..,..,1.5044,1.1526,..,1.1292,1.5844,..,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Ukraine,UKR,3.0181,3.0838,3.0885,3.1177,3.4904,3.483,3.4842,3.491,3.4965,2.9923,..,..,..,..,..,..
-"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,Thailand,THA,..,0.2875,0.2959,0.3164,0.3387,0.3906,..,..,..,..,0.4651,0.445,0.8075,0.805,0.9188,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,United States,USA,9.9177,..,..,..,..,12.5927,..,..,..,..,..,..,14.5812,15.685,..,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Canada,CAN,9.9467,10.0236,10.1208,10.289,10.3743,9.3233,9.2368,9.3473,9.4788,9.7475,9.8188,9.9194,9.9491,9.9874,11.812,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Mexico,MEX,2.2053,2.2215,2.2832,2.3066,2.3624,2.4118,2.5093,2.5488,2.8044,2.6798,2.4177,2.5103,2.5078,3.149,2.3646,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Central African Republic,CAF,..,..,..,0.1954,0.2529,..,..,..,0.1156,..,0.2063,..,..,..,..,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Chad,TCD,..,0.1808,..,..,..,..,..,0.2782,0.3383,0.2639,0.2525,0.2133,0.2322,..,0.1377,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Mali,MLI,..,..,0.2111,..,0.4437,0.4462,0.3677,0.3772,0.1192,..,..,0.4131,..,0.4408,..,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,"Iran, Islamic Rep.",IRN,1.4051,1.689,..,..,..,..,1.9971,..,..,1.5641,1.8907,..,2.6286,2.0766,..,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Ukraine,UKR,6.6407,6.6503,6.6468,6.6081,7.544,7.4719,7.4711,7.5132,7.5702,6.661,..,..,..,..,..,..
-"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,Thailand,THA,..,1.5448,1.5283,1.5842,1.642,2.0643,..,..,..,..,2.3683,2.7724,2.9573,2.7593,3.1522,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,United States,USA,3.2,3.18,3.14,3.13,3.08,3.05,2.97,2.93,2.89,2.83,2.8,2.77,2.87,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Canada,CAN,3.1,3.02,2.96,2.85,2.8,2.78,2.8,2.79,2.72,2.67,2.62,2.6,2.53,2.55,2.52,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Mexico,MEX,1.05,1.02,1.06,1.03,1.02,1.05,1.04,1.03,1.03,1.03,1,1,0.99,0.98,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Central African Republic,CAF,..,1.2,..,..,..,..,1,..,..,..,..,..,..,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Chad,TCD,0.4,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Mali,MLI,0.3,..,..,0.6,..,0.1,..,..,..,..,..,..,..,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,"Iran, Islamic Rep.",IRN,1.72,1.72,1.72,1.38,1.38,1.74,1.74,1.5,1.5,1.5,1.5,1.7,1.56,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Ukraine,UKR,8.68,8.73,8.72,8.75,9.4,9.38,9.05,8.91,8.8,7.46,..,..,..,..,..,..
-"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,Thailand,THA,2.1,..,..,..,..,2.1,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,United States,USA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Canada,CAN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Mexico,MEX,..,..,..,..,..,..,..,..,..,..,1303,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Central African Republic,CAF,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Chad,TCD,..,..,..,..,..,..,..,52,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Mali,MLI,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,"Iran, Islamic Rep.",IRN,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Ukraine,UKR,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,Thailand,THA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,United States,USA,57,57.6,58.2,58.8,59.4,59.9,60.5,61,61.6,62.1,62.6,63.2,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Canada,CAN,52.8,53.4,53.9,54.4,54.9,55.5,56,56.5,57,57.5,58,58.5,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Mexico,MEX,60.8,61.3,61.8,62.3,62.8,63.3,63.7,64.2,64.6,65.1,65.5,66,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Central African Republic,CAF,26.6,27.1,27.7,28.3,28.8,29.4,30,30.7,31.3,31.9,32.6,33.2,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Chad,TCD,23.1,23.7,24.2,24.8,25.4,26,26.6,27.2,27.8,28.5,29.1,29.8,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Mali,MLI,26.7,27.4,28.2,28.9,29.7,30.5,31.2,32,32.8,33.6,34.4,35.1,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,"Iran, Islamic Rep.",IRN,58.8,59.5,60.1,60.8,61.4,62,62.6,63.2,63.8,64.3,64.9,65.4,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Ukraine,UKR,53.3,53.5,53.7,53.9,54.1,54.3,54.5,54.7,54.9,55.1,55.3,55.5,..,..,..,..
-"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,Thailand,THA,26,26.8,27.7,28.5,29.4,30.3,31.2,32.1,33,33.8,34.7,35.6,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,United States,USA,67,67.6,68.1,68.7,69.2,69.8,70.3,70.8,71.3,71.8,72.3,72.7,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Canada,CAN,64.4,65,65.5,66,66.5,67,67.5,67.9,68.4,68.9,69.3,69.8,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Mexico,MEX,56.7,57.3,58,58.7,59.3,60,60.6,61.2,61.8,62.4,63,63.6,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Central African Republic,CAF,14.2,14.5,14.8,15.2,15.5,15.9,16.3,16.6,17,17.5,17.9,18.3,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Chad,TCD,12.6,12.9,13.2,13.4,13.7,14,14.3,14.6,14.9,15.3,15.6,16,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Mali,MLI,14.7,15.1,15.6,16,16.5,17,17.5,18.1,18.6,19.2,19.7,20.3,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,"Iran, Islamic Rep.",IRN,48.4,49.2,50.1,50.9,51.8,52.6,53.5,54.3,55.2,56,56.9,57.7,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Ukraine,UKR,54.6,55.2,55.8,56.5,57.1,57.7,58.3,59,59.6,60.2,60.8,61.4,..,..,..,..
-"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,Thailand,THA,18.2,19.1,19.9,20.8,21.8,22.8,23.8,24.8,25.9,27,28.1,29.2,..,..,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,United States,USA,..,..,23,..,..,21.8,..,21.2,..,20.6,..,19.9,..,19.3,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Canada,CAN,..,..,21.6,..,..,18.5,..,16.8,..,15.1,..,13.7,..,12.4,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Mexico,MEX,..,..,9.8,..,..,8.7,..,8.1,..,7.5,..,7,..,6.5,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Central African Republic,CAF,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Chad,TCD,..,..,4.7,..,..,3.8,..,3.4,..,2.9,..,2.6,..,2.3,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Mali,MLI,..,..,2.6,..,..,2.3,..,2.1,..,1.9,..,1.8,..,1.7,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,"Iran, Islamic Rep.",IRN,..,..,5.4,..,..,4.8,..,4.4,..,4,..,3.8,..,3.5,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Ukraine,UKR,..,..,13,..,..,12.1,..,11.5,..,11,..,10.4,..,9.9,..,..
-"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,Thailand,THA,..,..,4.5,..,..,4.1,..,3.8,..,3.6,..,3.3,..,3.1,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,United States,USA,..,..,35.3,..,..,33.9,..,33.2,..,32.3,..,31.5,..,30.9,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Canada,CAN,..,..,34.7,..,..,30.9,..,28.5,..,26.3,..,24.5,..,22.7,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Mexico,MEX,..,..,29,..,..,26.7,..,25.2,..,23.8,..,22.5,..,21.2,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Central African Republic,CAF,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Chad,TCD,..,..,22.6,..,..,22.2,..,21.9,..,21.6,..,21.6,..,21.3,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Mali,MLI,..,..,22.4,..,..,22.4,..,22.4,..,22.4,..,22.4,..,22.4,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,"Iran, Islamic Rep.",IRN,..,..,30.7,..,..,28.9,..,27.7,..,26.6,..,25.5,..,24.6,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Ukraine,UKR,..,..,52.8,..,..,49.3,..,47.1,..,45.1,..,42.9,..,41,..,..
-"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,Thailand,THA,..,..,51.6,..,..,49,..,47.1,..,45.5,..,43.9,..,42.5,..,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,United States,USA,30,30,30.1,30.1,30,30,29.9,29.8,29.7,29.5,29.4,29.3,29.2,29.1,29,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Canada,CAN,23.9,23.6,23.3,23,22.7,22.5,22.2,21.9,21.6,21.3,21,20.8,20.5,20.2,19.9,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Mexico,MEX,34,34.1,34.2,34.2,34.3,34.2,34.1,33.9,33.6,33.2,32.9,32.5,32.1,31.7,31.4,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Central African Republic,CAF,40.9,41.2,41.5,41.7,41.9,42.1,42.2,42.3,42.4,42.5,42.6,42.6,42.7,42.8,42.8,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Chad,TCD,40.7,41,41.1,41.3,41.3,41.3,41.3,41.2,41.2,41.1,41,40.9,40.8,40.7,40.7,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Mali,MLI,37.9,38.1,38.3,38.5,38.5,38.6,38.6,38.5,38.5,38.5,38.4,38.4,38.4,38.3,38.3,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,"Iran, Islamic Rep.",IRN,36.7,36.4,36.1,35.8,35.3,34.8,34.2,33.5,32.6,31.6,30.5,29.3,28.2,27,25.8,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Ukraine,UKR,47.5,47.3,47,46.7,46.4,46.1,45.6,45.2,44.7,44.2,43.7,43.2,42.7,42.1,41.6,..
-"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,Thailand,THA,25.1,25.5,25.8,26.1,26.4,26.7,26.9,27.1,27.4,27.6,27.9,28.2,28.5,28.8,29.2,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,United States,USA,33.3,33.5,33.6,33.6,33.7,33.7,33.7,33.7,33.7,33.7,33.8,33.8,33.9,34,34.1,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Canada,CAN,28.6,28.2,27.9,27.5,27.2,26.9,26.5,26.2,25.9,25.6,25.3,25,24.8,24.5,24.3,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Mexico,MEX,35.8,35.9,36,36,36,35.9,35.7,35.4,35,34.7,34.3,33.9,33.5,33.1,32.8,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Central African Republic,CAF,42.1,42.1,42.2,42.2,42.1,41.9,41.7,41.5,41.2,40.9,40.6,40.3,40,39.7,39.5,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Chad,TCD,37.9,38,38,38,37.9,37.7,37.5,37.2,36.9,36.6,36.3,36,35.7,35.4,35.1,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Mali,MLI,32.5,32.5,32.6,32.5,32.5,32.3,32.2,32,31.7,31.5,31.3,31.1,30.9,30.7,30.5,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,"Iran, Islamic Rep.",IRN,31.4,31.2,31,30.7,30.5,30.1,29.8,29.4,28.9,28.5,28,27.6,27.3,27,26.6,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Ukraine,UKR,51.6,51.5,51.2,50.9,50.5,50,49.5,49,48.4,47.8,47.1,46.5,45.8,45.2,44.5,..
-"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,Thailand,THA,27.5,27.7,27.9,28.1,28.2,28.3,28.3,28.4,28.5,28.5,28.6,28.7,28.8,29,29.1,..
+﻿Country Name,Country Code,Series Name,Series Code,2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+United States,USA,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,14,14.3,14.3,14,13.5,13,12.7,12.6,12.4,12.5,12.4,12.2,11.8,11.6,11.4,..
+Canada,CAN,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,10.6,10.9,11.2,11.3,11.3,11.1,11,11,10.8,10.8,10.7,10.6,10.3,10.1,9.9,..
+Mexico,MEX,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,21.741,21.343,20.973,20.635,20.327,20.042,19.766,19.488,19.198,18.892,18.573,18.245,17.918,17.602,17.297,..
+Central African Republic,CAF,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,40.692,40.427,40.111,39.749,39.346,38.905,38.431,37.933,37.427,36.927,36.454,36.029,35.66,35.348,35.09,..
+Chad,TCD,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,49.325,48.848,48.327,47.772,47.194,46.603,46.01,45.42,44.841,44.276,43.73,43.201,42.683,42.172,41.665,..
+Mali,MLI,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,48.444,48.191,47.853,47.434,46.939,46.379,45.769,45.129,44.482,43.843,43.226,42.638,42.078,41.543,41.035,..
+"Iran, Islamic Rep.",IRN,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,17.401,17.52,17.663,17.823,17.986,18.154,18.335,18.533,18.739,18.93,19.066,19.102,19.011,18.783,18.42,..
+Ukraine,UKR,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,9,9.8,10.2,11,11.1,10.8,11,11.4,11.1,10.8,10.7,10.3,9.4,8.7,8.1,..
+Thailand,THA,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,12.87,12.632,12.407,12.188,11.971,11.757,11.548,11.351,11.169,10.999,10.836,10.676,10.513,10.344,10.168,..
+United States,USA,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,0.65363973,0.66477114,0.717116,0.76118088,0.70491374,0.68704522,0.7024169,0.70865661,0.69361621,0.64768839,0.64494258,0.63860589,0.67145181,0.66255105,0.67703497,..
+Canada,CAN,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,0.4640432,0.48383656,0.61307919,0.47915494,0.54793304,0.58610934,0.55770832,0.55659932,0.48322916,0.43591252,0.45552984,0.42354,0.38220248,0.38234833,0.39864108,..
+Mexico,MEX,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,0.12093282,0.11649629,0.09540497,0.12782037,0.22113964,0.19516744,0.11883423,0.1054229,0.08809453,0.0933276,0.07663224,0.08285465,0.07024645,0.08476871,0.06373785,..
+Central African Republic,CAF,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,..,..,..,..,..,..,..,..,..,..,0.00585614,0.01687354,0.03225806,0.20130682,..,..
+Chad,TCD,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,..,..,..,..,..,..,0.76795876,..,..,..,..,..,..,..,..,..
+Mali,MLI,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,..,..,..,..,..,..,..,..,0.24905804,0.31472626,0.24554077,0.30369636,0.18864341,0.04446506,..,..
+"Iran, Islamic Rep.",IRN,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,0.11898085,0.14640558,0.14948277,0.18947878,0.14736469,0.13986275,0.17509484,0.0876886,0.09092296,0.19252566,..,..,..,..,..,..
+Ukraine,UKR,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,0.07809397,0.00165373,0.49199405,0.35901695,0.18487377,0.25858155,0.30162001,0.2822485,0.26446491,0.12670267,0.35493177,0.26909873,0.30882493,0.28267708,0.27389196,..
+Thailand,THA,Capital health expenditure (% of GDP),SH.XPD.KHEX.GD.ZS,0.1457645,0.16260447,0.1549878,0.21097681,0.23032501,0.17112526,0.27220535,0.31526989,0.23578981,0.23681293,0.22154549,0.3167206,0.2281076,0.23268826,0.19367595,..
+United States,USA,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,6.202373747,..,..,..,..,6.305965102,..,..,..,6.552960936,..
+Canada,CAN,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,6.049061448,..,..,..,..,5.778199381,..,..,..,5.419114589,..
+Mexico,MEX,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,12.35810683,..,..,..,..,10.15011209,..,..,..,10.49625517,..
+Central African Republic,CAF,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,7.294326925,..,..,..,..,9.06562122,..,..,..,9.020713997,..
+Chad,TCD,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,7.389892015,..,..,..,..,8.727550679,..,..,..,9.567027411,..
+Mali,MLI,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,7.543181097,..,..,..,..,8.486421381,..,..,..,9.423414823,..
+"Iran, Islamic Rep.",IRN,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,15.0029091,..,..,..,..,11.6151208,..,..,..,10.60366444,..
+Ukraine,UKR,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,5.262312355,..,..,..,..,5.321646463,..,..,..,5.01101816,..
+Thailand,THA,"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS,..,..,..,..,..,12.63783556,..,..,..,..,10.42200102,..,..,..,9.514064698,..
+United States,USA,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,8.3,8.1,8,8.1,7.9,7.995,8.073,8.102,8.215,8.237,8.44,8.493,8.638,8.678,8.7,..
+Canada,CAN,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,7.1,7,7.1,7.2,7.1,7,7.1,7.1,7.2,7.3,7.4,7.4,7.5,7.7,7.6,..
+Mexico,MEX,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,4.792,4.869,4.961,5.06,5.163,5.266,5.369,5.471,5.572,5.67,5.763,5.851,5.933,6.01,6.082,..
+Central African Republic,CAF,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,18.5,18.137,17.727,17.283,16.816,16.329,15.817,15.28,14.725,14.164,13.621,13.119,12.671,12.289,11.974,..
+Chad,TCD,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,16.636,16.295,15.909,15.489,15.047,14.598,14.161,13.752,13.38,13.053,12.77,12.527,12.309,12.104,11.907,..
+Mali,MLI,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,15.112,14.492,13.916,13.387,12.91,12.481,12.09,11.72,11.358,11.001,10.649,10.307,9.984,9.686,9.412,..
+"Iran, Islamic Rep.",IRN,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,5.041,5.039,5.025,4.996,4.955,4.905,4.857,4.82,4.799,4.795,4.805,4.821,4.835,4.843,4.842,..
+Ukraine,UKR,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,16.6,16.2,16.4,16.3,15.3,15.2,14.5,14.5,14.6,14.7,14.9,14.7,14.5,14.8,14.7,..
+Thailand,THA,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,7.123,7.141,7.154,7.164,7.175,7.191,7.213,7.241,7.279,7.327,7.389,7.467,7.559,7.666,7.786,..
+United States,USA,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,13,14,14,14,15,15,15,16,16,16,18,19,19,..,..,..
+Canada,CAN,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,11,11,11,12,12,11,11,11,11,11,11,10,10,..,..,..
+Mexico,MEX,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,54,51,49,49,51,46,43,41,39,38,36,34,33,..,..,..
+Central African Republic,CAF,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,1200,1170,1130,1090,1050,1000,981,963,1030,961,912,890,829,..,..,..
+Chad,TCD,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,1330,1340,1300,1310,1270,1240,1210,1190,1170,1170,1160,1140,1140,..,..,..
+Mali,MLI,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,691,675,663,661,661,660,663,663,663,642,620,590,562,..,..,..
+"Iran, Islamic Rep.",IRN,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,34,32,30,28,25,22,19,18,17,17,17,16,16,..,..,..
+Ukraine,UKR,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,33,31,33,33,27,25,23,24,23,24,21,20,19,..,..,..
+Thailand,THA,"Maternal mortality ratio (modeled estimate, per 100,000 live births)",SH.STA.MMRT,43,42,42,43,43,42,41,39,39,38,38,37,37,..,..,..
+United States,USA,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,13.3,..,..,..,..
+Canada,CAN,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,7,..,..,..,..
+Mexico,MEX,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,36.7,..,..,..,..
+Central African Republic,CAF,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,211.9,..,..,..,..
+Chad,TCD,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,280.1,..,..,..,..
+Mali,MLI,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,209.1,..,..,..,..
+"Iran, Islamic Rep.",IRN,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,50.9,..,..,..,..
+Ukraine,UKR,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,70.7,..,..,..,..
+Thailand,THA,"Mortality rate attributed to household and ambient air pollution (per 100,000 population)",SH.STA.AIRP.P5,..,..,..,..,..,..,..,..,..,..,..,61.5,..,..,..,..
+United States,USA,Number of maternal deaths,SH.MMR.DTHS,560,570,570,580,600,600,610,620,630,640,680,730,720,..,..,..
+Canada,CAN,Number of maternal deaths,SH.MMR.DTHS,39,40,41,44,44,42,43,44,42,41,41,40,40,..,..,..
+Mexico,MEX,Number of maternal deaths,SH.MMR.DTHS,1200,1200,1100,1100,1200,1100,980,940,880,870,810,770,740,..,..,..
+Central African Republic,CAF,Number of maternal deaths,SH.MMR.DTHS,2000,1900,1900,1800,1800,1700,1700,1600,1700,1600,1500,1500,1400,..,..,..
+Chad,TCD,Number of maternal deaths,SH.MMR.DTHS,6600,6900,6800,7000,7000,7000,6900,6900,7000,7100,7100,7200,7300,..,..,..
+Mali,MLI,Number of maternal deaths,SH.MMR.DTHS,4300,4300,4300,4400,4500,4600,4700,4800,4900,4800,4700,4500,4400,..,..,..
+"Iran, Islamic Rep.",IRN,Number of maternal deaths,SH.MMR.DTHS,410,400,380,360,330,290,260,250,250,250,250,250,250,..,..,..
+Ukraine,UKR,Number of maternal deaths,SH.MMR.DTHS,140,140,150,160,140,120,120,120,110,110,97,89,83,..,..,..
+Thailand,THA,Number of maternal deaths,SH.MMR.DTHS,360,350,350,350,340,330,320,300,300,290,280,270,270,..,..,..
+United States,USA,Number of under-five deaths,SH.DTH.MORT,32674,32448,32061,31513,30828,30050,29249,28469,27757,27137,26612,26176,25817,25515,25248,24976
+Canada,CAN,Number of under-five deaths,SH.DTH.MORT,2088,2108,2126,2139,2147,2148,2142,2129,2110,2086,2061,2035,2009,1984,1958,1929
+Mexico,MEX,Number of under-five deaths,SH.DTH.MORT,53034,50831,48819,47006,45349,43803,42317,40891,39492,38098,36715,35358,33972,32617,31317,30081
+Central African Republic,CAF,Number of under-five deaths,SH.DTH.MORT,25553,25511,25379,25145,24640,24073,23342,22588,21915,21124,20230,19324,18713,18182,17534,17069
+Chad,TCD,Number of under-five deaths,SH.DTH.MORT,78507,79003,79304,79353,79208,78909,78495,78005,77466,76938,76381,75645,74782,73875,72864,71959
+Mali,MLI,Number of under-five deaths,SH.DTH.MORT,91774,91104,90290,89389,88269,87031,85633,84107,82526,80914,79294,77759,76352,74990,73747,72521
+"Iran, Islamic Rep.",IRN,Number of under-five deaths,SH.DTH.MORT,31528,29998,28626,27366,26272,25398,24608,24024,23580,23148,22744,22301,21814,21157,20430,19577
+Ukraine,UKR,Number of under-five deaths,SH.DTH.MORT,6191,6149,6106,6034,5913,5738,5514,5258,4993,4729,4470,4219,3973,3735,3509,3295
+Thailand,THA,Number of under-five deaths,SH.DTH.MORT,14588,13723,12927,12183,11481,10826,10199,9616,9079,8581,8106,7658,7237,6839,6455,6094
+United States,USA,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,..,..,..,..,..,..,..,..,..,..,..,..,..,2.6036,..,..
+Canada,CAN,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,..,1.9086,..,1.959,..,2.0384,..,2.3962,2.4509,2.4961,2.5388,2.3105,2.6102,2.4251,2.4425,..
+Mexico,MEX,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,3.5303,3.762,3.843,3.8988,3.9581,3.9972,4.2008,4.2236,4.311,4.4526,4.6493,4.6488,4.7654,4.8496,..,..
+Central African Republic,CAF,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,..,..,..,0.0405,0.0473,..,..,..,..,..,0.0721,..,..,..,..,..
+Chad,TCD,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,..,0.0352,..,..,..,..,..,0.0413,0.0433,0.0445,0.0493,0.0371,0.0434,..,0.0542,..
+Mali,MLI,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,..,..,0.0776,..,0.0923,0.1021,0.1037,0.1071,..,..,..,0.1395,..,0.1286,..,..
+"Iran, Islamic Rep.",IRN,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,0.8869,0.5361,..,..,..,..,..,..,..,1.5044,1.1526,..,1.1292,1.5844,..,..
+Ukraine,UKR,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,3.0181,3.0838,3.0885,3.1177,3.4904,3.483,3.4842,3.491,3.4965,2.9923,..,..,..,..,..,..
+Thailand,THA,"Physicians (per 1,000 people)",SH.MED.PHYS.ZS,..,0.2875,0.2959,0.3164,0.3387,0.3906,..,..,..,..,0.4651,0.445,0.8075,0.805,0.9188,..
+United States,USA,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,9.9177,..,..,..,..,12.5927,..,..,..,..,..,..,14.5812,15.685,..,..
+Canada,CAN,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,9.9467,10.0236,10.1208,10.289,10.3743,9.3233,9.2368,9.3473,9.4788,9.7475,9.8188,9.9194,9.9491,9.9874,11.812,..
+Mexico,MEX,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,2.2053,2.2215,2.2832,2.3066,2.3624,2.4118,2.5093,2.5488,2.8044,2.6798,2.4177,2.5103,2.5078,3.149,2.3646,..
+Central African Republic,CAF,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,..,..,..,0.1954,0.2529,..,..,..,0.1156,..,0.2063,..,..,..,..,..
+Chad,TCD,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,..,0.1808,..,..,..,..,..,0.2782,0.3383,0.2639,0.2525,0.2133,0.2322,..,0.1377,..
+Mali,MLI,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,..,..,0.2111,..,0.4437,0.4462,0.3677,0.3772,0.1192,..,..,0.4131,..,0.4408,..,..
+"Iran, Islamic Rep.",IRN,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,1.4051,1.689,..,..,..,..,1.9971,..,..,1.5641,1.8907,..,2.6286,2.0766,..,..
+Ukraine,UKR,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,6.6407,6.6503,6.6468,6.6081,7.544,7.4719,7.4711,7.5132,7.5702,6.661,..,..,..,..,..,..
+Thailand,THA,"Nurses and midwives (per 1,000 people)",SH.MED.NUMW.P3,..,1.5448,1.5283,1.5842,1.642,2.0643,..,..,..,..,2.3683,2.7724,2.9573,2.7593,3.1522,..
+United States,USA,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,3.2,3.18,3.14,3.13,3.08,3.05,2.97,2.93,2.89,2.83,2.8,2.77,2.87,..,..,..
+Canada,CAN,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,3.1,3.02,2.96,2.85,2.8,2.78,2.8,2.79,2.72,2.67,2.62,2.6,2.53,2.55,2.52,..
+Mexico,MEX,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,1.05,1.02,1.06,1.03,1.02,1.05,1.04,1.03,1.03,1.03,1,1,0.99,0.98,..,..
+Central African Republic,CAF,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,..,1.2,..,..,..,..,1,..,..,..,..,..,..,..,..,..
+Chad,TCD,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,0.4,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mali,MLI,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,0.3,..,..,0.6,..,0.1,..,..,..,..,..,..,..,..,..,..
+"Iran, Islamic Rep.",IRN,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,1.72,1.72,1.72,1.38,1.38,1.74,1.74,1.5,1.5,1.5,1.5,1.7,1.56,..,..,..
+Ukraine,UKR,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,8.68,8.73,8.72,8.75,9.4,9.38,9.05,8.91,8.8,7.46,..,..,..,..,..,..
+Thailand,THA,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,2.1,..,..,..,..,2.1,..,..,..,..,..,..,..,..,..,..
+United States,USA,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Canada,CAN,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Mexico,MEX,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,1303,..,..,..,..,..
+Central African Republic,CAF,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Chad,TCD,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,52,..,..,..,..,..,..,..,..
+Mali,MLI,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"Iran, Islamic Rep.",IRN,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Ukraine,UKR,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Thailand,THA,"Number of surgical procedures (per 100,000 population)",SH.SGR.PROC.P5,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,USA,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,57,57.6,58.2,58.8,59.4,59.9,60.5,61,61.6,62.1,62.6,63.2,..,..,..,..
+Canada,CAN,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,52.8,53.4,53.9,54.4,54.9,55.5,56,56.5,57,57.5,58,58.5,..,..,..,..
+Mexico,MEX,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,60.8,61.3,61.8,62.3,62.8,63.3,63.7,64.2,64.6,65.1,65.5,66,..,..,..,..
+Central African Republic,CAF,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,26.6,27.1,27.7,28.3,28.8,29.4,30,30.7,31.3,31.9,32.6,33.2,..,..,..,..
+Chad,TCD,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,23.1,23.7,24.2,24.8,25.4,26,26.6,27.2,27.8,28.5,29.1,29.8,..,..,..,..
+Mali,MLI,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,26.7,27.4,28.2,28.9,29.7,30.5,31.2,32,32.8,33.6,34.4,35.1,..,..,..,..
+"Iran, Islamic Rep.",IRN,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,58.8,59.5,60.1,60.8,61.4,62,62.6,63.2,63.8,64.3,64.9,65.4,..,..,..,..
+Ukraine,UKR,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,53.3,53.5,53.7,53.9,54.1,54.3,54.5,54.7,54.9,55.1,55.3,55.5,..,..,..,..
+Thailand,THA,"Prevalence of overweight, female (% of female adults)",SH.STA.OWAD.FE.ZS,26,26.8,27.7,28.5,29.4,30.3,31.2,32.1,33,33.8,34.7,35.6,..,..,..,..
+United States,USA,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,67,67.6,68.1,68.7,69.2,69.8,70.3,70.8,71.3,71.8,72.3,72.7,..,..,..,..
+Canada,CAN,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,64.4,65,65.5,66,66.5,67,67.5,67.9,68.4,68.9,69.3,69.8,..,..,..,..
+Mexico,MEX,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,56.7,57.3,58,58.7,59.3,60,60.6,61.2,61.8,62.4,63,63.6,..,..,..,..
+Central African Republic,CAF,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,14.2,14.5,14.8,15.2,15.5,15.9,16.3,16.6,17,17.5,17.9,18.3,..,..,..,..
+Chad,TCD,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,12.6,12.9,13.2,13.4,13.7,14,14.3,14.6,14.9,15.3,15.6,16,..,..,..,..
+Mali,MLI,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,14.7,15.1,15.6,16,16.5,17,17.5,18.1,18.6,19.2,19.7,20.3,..,..,..,..
+"Iran, Islamic Rep.",IRN,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,48.4,49.2,50.1,50.9,51.8,52.6,53.5,54.3,55.2,56,56.9,57.7,..,..,..,..
+Ukraine,UKR,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,54.6,55.2,55.8,56.5,57.1,57.7,58.3,59,59.6,60.2,60.8,61.4,..,..,..,..
+Thailand,THA,"Prevalence of overweight, male (% of male adults)",SH.STA.OWAD.MA.ZS,18.2,19.1,19.9,20.8,21.8,22.8,23.8,24.8,25.9,27,28.1,29.2,..,..,..,..
+United States,USA,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,23,..,..,21.8,..,21.2,..,20.6,..,19.9,..,19.3,..,..
+Canada,CAN,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,21.6,..,..,18.5,..,16.8,..,15.1,..,13.7,..,12.4,..,..
+Mexico,MEX,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,9.8,..,..,8.7,..,8.1,..,7.5,..,7,..,6.5,..,..
+Central African Republic,CAF,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Chad,TCD,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,4.7,..,..,3.8,..,3.4,..,2.9,..,2.6,..,2.3,..,..
+Mali,MLI,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,2.6,..,..,2.3,..,2.1,..,1.9,..,1.8,..,1.7,..,..
+"Iran, Islamic Rep.",IRN,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,5.4,..,..,4.8,..,4.4,..,4,..,3.8,..,3.5,..,..
+Ukraine,UKR,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,13,..,..,12.1,..,11.5,..,11,..,10.4,..,9.9,..,..
+Thailand,THA,"Prevalence of current tobacco use, females (% of female adults)",SH.PRV.SMOK.FE,..,..,4.5,..,..,4.1,..,3.8,..,3.6,..,3.3,..,3.1,..,..
+United States,USA,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,35.3,..,..,33.9,..,33.2,..,32.3,..,31.5,..,30.9,..,..
+Canada,CAN,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,34.7,..,..,30.9,..,28.5,..,26.3,..,24.5,..,22.7,..,..
+Mexico,MEX,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,29,..,..,26.7,..,25.2,..,23.8,..,22.5,..,21.2,..,..
+Central African Republic,CAF,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Chad,TCD,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,22.6,..,..,22.2,..,21.9,..,21.6,..,21.6,..,21.3,..,..
+Mali,MLI,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,22.4,..,..,22.4,..,22.4,..,22.4,..,22.4,..,22.4,..,..
+"Iran, Islamic Rep.",IRN,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,30.7,..,..,28.9,..,27.7,..,26.6,..,25.5,..,24.6,..,..
+Ukraine,UKR,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,52.8,..,..,49.3,..,47.1,..,45.1,..,42.9,..,41,..,..
+Thailand,THA,"Prevalence of current tobacco use, males (% of male adults)",SH.PRV.SMOK.MA,..,..,51.6,..,..,49,..,47.1,..,45.5,..,43.9,..,42.5,..,..
+United States,USA,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,30,30,30.1,30.1,30,30,29.9,29.8,29.7,29.5,29.4,29.3,29.2,29.1,29,..
+Canada,CAN,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,23.9,23.6,23.3,23,22.7,22.5,22.2,21.9,21.6,21.3,21,20.8,20.5,20.2,19.9,..
+Mexico,MEX,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,34,34.1,34.2,34.2,34.3,34.2,34.1,33.9,33.6,33.2,32.9,32.5,32.1,31.7,31.4,..
+Central African Republic,CAF,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,40.9,41.2,41.5,41.7,41.9,42.1,42.2,42.3,42.4,42.5,42.6,42.6,42.7,42.8,42.8,..
+Chad,TCD,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,40.7,41,41.1,41.3,41.3,41.3,41.3,41.2,41.2,41.1,41,40.9,40.8,40.7,40.7,..
+Mali,MLI,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,37.9,38.1,38.3,38.5,38.5,38.6,38.6,38.5,38.5,38.5,38.4,38.4,38.4,38.3,38.3,..
+"Iran, Islamic Rep.",IRN,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,36.7,36.4,36.1,35.8,35.3,34.8,34.2,33.5,32.6,31.6,30.5,29.3,28.2,27,25.8,..
+Ukraine,UKR,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,47.5,47.3,47,46.7,46.4,46.1,45.6,45.2,44.7,44.2,43.7,43.2,42.7,42.1,41.6,..
+Thailand,THA,"Prevalence of hypertension, female (% of female adults ages 30-79)",SH.HTN.PREV.FE.ZS,25.1,25.5,25.8,26.1,26.4,26.7,26.9,27.1,27.4,27.6,27.9,28.2,28.5,28.8,29.2,..
+United States,USA,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,33.3,33.5,33.6,33.6,33.7,33.7,33.7,33.7,33.7,33.7,33.8,33.8,33.9,34,34.1,..
+Canada,CAN,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,28.6,28.2,27.9,27.5,27.2,26.9,26.5,26.2,25.9,25.6,25.3,25,24.8,24.5,24.3,..
+Mexico,MEX,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,35.8,35.9,36,36,36,35.9,35.7,35.4,35,34.7,34.3,33.9,33.5,33.1,32.8,..
+Central African Republic,CAF,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,42.1,42.1,42.2,42.2,42.1,41.9,41.7,41.5,41.2,40.9,40.6,40.3,40,39.7,39.5,..
+Chad,TCD,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,37.9,38,38,38,37.9,37.7,37.5,37.2,36.9,36.6,36.3,36,35.7,35.4,35.1,..
+Mali,MLI,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,32.5,32.5,32.6,32.5,32.5,32.3,32.2,32,31.7,31.5,31.3,31.1,30.9,30.7,30.5,..
+"Iran, Islamic Rep.",IRN,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,31.4,31.2,31,30.7,30.5,30.1,29.8,29.4,28.9,28.5,28,27.6,27.3,27,26.6,..
+Ukraine,UKR,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,51.6,51.5,51.2,50.9,50.5,50,49.5,49,48.4,47.8,47.1,46.5,45.8,45.2,44.5,..
+Thailand,THA,"Prevalence of hypertension, male (% of male adults ages 30-79)",SH.HTN.PREV.MA.ZS,27.5,27.7,27.9,28.1,28.2,28.3,28.3,28.4,28.5,28.5,28.6,28.7,28.8,29,29.1,..

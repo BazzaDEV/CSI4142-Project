@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS "CSI4142".country
 (
-    surrogate_key INTEGER,
     country_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     country_name VARCHAR(255),
     land_area INTEGER,
     export_percent_gdp NUMERIC,
@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".country
 
 CREATE TABLE IF NOT EXISTS "CSI4142".date_
 (
-    surrogate_key INTEGER,
     date_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     quarter INTEGER,
     month_ VARCHAR(255),
     year_ INTEGER,
@@ -28,8 +28,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".date_
 
 CREATE TABLE IF NOT EXISTS "CSI4142".population_
 (
-    surrogate_key INTEGER,
     population_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     life_expectancy_female NUMERIC,
     life_expectancy_male NUMERIC,
     life_expectancy NUMERIC,
@@ -50,8 +50,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".population_
 
 CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
 (
-    surrogate_key INTEGER,
     living_conditions_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     access_electricity NUMERIC,
     coverage_social_insurance_programs NUMERIC,
     coverage_social_protection_and_labor_programs NUMERIC,
@@ -72,8 +72,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
 
 CREATE TABLE IF NOT EXISTS "CSI4142".education
 (
-    surrogate_key INTEGER,
     education_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     enrollment_primary NUMERIC,
     enrollment_secondary NUMERIC,
     enrollment_tertiary NUMERIC,
@@ -101,8 +101,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".education
 
 CREATE TABLE IF NOT EXISTS "CSI4142".health
 (
-    surrogate_key INTEGER,
     health_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     birthr_rate NUMERIC,
     capital_Health_expenditure NUMERIC,
     cause_of_death_non_communicable_injury NUMERIC,
@@ -125,18 +125,21 @@ CREATE TABLE IF NOT EXISTS "CSI4142".health
 
 CREATE TABLE IF NOT EXISTS "CSI4142".event_
 (
-    surrogate_key INTEGER,
     event_id SERIAL PRIMARY KEY,
+    surrogate_key INTEGER,
     event_name VARCHAR(255),
     event_category VARCHAR(255),
     date_start DATE,
-    date_end DATE
+    date_end DATE,
+    country_code VARCHAR(255),
+    year_ INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS "CSI4142".fact_table
 (
-    country_surrogate INTEGER,
+    fact_table_id SERIAL PRIMARY KEY,
     date_surrogate INTEGER,
+    country_surrogate INTEGER,
     population_surrogate INTEGER,
     living_conditions_surrogate INTEGER,
     education_surrogate INTEGER,
