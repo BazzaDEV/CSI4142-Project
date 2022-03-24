@@ -4,17 +4,18 @@ CREATE TABLE IF NOT EXISTS "CSI4142".country
     surrogate_key INTEGER,
     country_code VARCHAR(255),
     land_area INTEGER,
+    access_electricity INTEGER,
     export_percent_gdp NUMERIC,
     import_percent_gdp NUMERIC,
-    continent VARCHAR(255),
-    region VARCHAR(255),
-    currency VARCHAR(255),
     cell_subscriptions NUMERIC,
     total_population INTEGER,
     population_growth NUMERIC,
     forest_area NUMERIC,
-    gdp NUMERIC,
-    co2_emissions NUMERIC
+    gdp_growth NUMERIC,
+    gdp_current NUMERIC,
+    gdp_constant_2015 NUMERIC,
+    co2_emissions_kt NUMERIC,
+    co2_emissions_per_cap NUMERIC
 );
 
 CREATE TABLE IF NOT EXISTS "CSI4142".date_
@@ -45,8 +46,8 @@ CREATE TABLE IF NOT EXISTS "CSI4142".population_
     labor_force_male NUMERIC GENERATED ALWAYS AS (100 - labor_force_female) STORED,
     labor_force_total NUMERIC,
     unemployment_rate NUMERIC,
-    unemployment_rate_male NUMERIC,
-    unemployment_rate_female NUMERIC
+    unemployment_rate_female NUMERIC,
+    unemployment_rate_male NUMERIC
 );
 
 CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
@@ -78,12 +79,11 @@ CREATE TABLE IF NOT EXISTS "CSI4142".education
     enrollment_primary NUMERIC,
     enrollment_secondary NUMERIC,
     enrollment_tertiary NUMERIC,
-    completed_primary NUMERIC,
     literacy_rate NUMERIC,
+    literacy_rate_youth NUMERIC,
     compulsory_education_years INTEGER,
     current_education_expenditure NUMERIC,
     educational_attainment_at_least_bachelor NUMERIC,
-    educational_attainment_at_least_completed_lower_secondary NUMERIC,
     educational_attainment_at_least_completed_post_secondary NUMERIC,
     educational_attainment_at_least_completed_primary NUMERIC,
     educational_attainment_at_least_completed_short_cycle_tertiary NUMERIC,
@@ -93,19 +93,15 @@ CREATE TABLE IF NOT EXISTS "CSI4142".education
     expenditure_on_primary_education NUMERIC,
     expenditure_on_secondary_education NUMERIC,
     expenditure_on_tertiary_education NUMERIC,
-    government_expenditure_on_education NUMERIC,
-    government_expenditure_per_student_primary NUMERIC,
-    government_expenditure_per_student_secondary NUMERIC,
-    government_expenditre_per_student_tertiary NUMERIC,
-    over_age_students_primary NUMERIC
+    government_expenditure_on_education NUMERIC
 );
 
 CREATE TABLE IF NOT EXISTS "CSI4142".health
 (
     health_id SERIAL PRIMARY KEY,
     surrogate_key INTEGER,
-    birthr_rate NUMERIC,
-    capital_Health_expenditure NUMERIC,
+    birth_rate NUMERIC,
+    capital_health_expenditure NUMERIC,
     cause_of_death_non_communicable_injury NUMERIC,
     death_rate NUMERIC,
     maternal_mortality_ratio NUMERIC,
@@ -118,10 +114,10 @@ CREATE TABLE IF NOT EXISTS "CSI4142".health
     number_surgical_procedures_per_100000 NUMERIC,
     prevalence_of_overweight_female NUMERIC,
     prevalence_of_overweight_male NUMERIC,
-    prevalence_of_current_tobacco_use_male  NUMERIC,
     prevalence_of_current_tobacco_use_female NUMERIC,
+    prevalence_of_current_tobacco_use_male  NUMERIC,
     prevalence_of_hypertension_female  NUMERIC,
-    prevalence_of_hypertension NUMERIC
+    prevalence_of_hypertension_male NUMERIC
 );
 
 CREATE TABLE IF NOT EXISTS "CSI4142".event_
