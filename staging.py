@@ -80,8 +80,9 @@ for year in range(2005,2021):
         rows = countryData[np.where(countryData[:,1]==country)]
         countryTable+=[
                         [countrySK,
-                        getDataPoint(rows,year,"Access to electricity (% of population)"),
+                        country,
                         getDataPoint(rows,year,"Land area (sq. km)"),
+                        getDataPoint(rows,year,"Access to electricity (% of population)"),
                         getDataPoint(rows,year,"Exports of goods and services (% of GDP)"),
                         getDataPoint(rows,year,"Imports of goods and services (% of GDP)"),
                         getDataPoint(rows,year,"Mobile cellular subscriptions (per 100 people)"),
@@ -224,3 +225,4 @@ for year in range(2005,2021):
             ]]
 
 ############all 8 tables need to be output to csv here#################
+

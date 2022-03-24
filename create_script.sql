@@ -2,9 +2,10 @@ CREATE TABLE IF NOT EXISTS "CSI4142".country
 (
     country_id SERIAL PRIMARY KEY,
     surrogate_key INTEGER,
-    country_name VARCHAR(255),
+    country_code VARCHAR(255),
     land_area INTEGER,
     export_percent_gdp NUMERIC,
+    import_percent_gdp NUMERIC,
     continent VARCHAR(255),
     region VARCHAR(255),
     currency VARCHAR(255),
