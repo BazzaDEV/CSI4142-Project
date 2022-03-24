@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import os
 
-from telegram import PassportElementErrorDataField
-
 dir = os.path.dirname(__file__)
 
 countryCodes={"CAF":" Central African Republic", "CAN":" Canada", "USA":" United States", "MEX":" Mexico","IRN":" Iran (Islamic Republic of)", "UKR":" Ukraine", "MLI":" Mali","THA":" Thailand", "TCD":" Chad"}
@@ -42,13 +40,13 @@ incomeIndex = pd.read_csv(dir + "/data/income_index.csv", encoding = "ISO-8859-1
 educationIndex = pd.read_csv(dir + "/data/education_index.csv", encoding = "ISO-8859-1").values
 
 #Target Tables
-factTable = [[]]
-dateTable = [[]]
-countryTable = [[]]
-livingConditionTable = [[]]
-healthTable = [[]]
-educationTable = [[]]
-populationTable = [[]]
+factTable = []
+dateTable = []
+countryTable = []
+livingConditionTable = []
+healthTable = []
+educationTable = []
+populationTable = []
 eventsTable = [[
     0,
     "Null Event",
@@ -226,3 +224,11 @@ for year in range(2005,2021):
 
 ############all 8 tables need to be output to csv here#################
 
+pd.DataFrame(factTable).to_csv(dir + "/out/factTable.csv",header=False)
+pd.DataFrame(populationTable).to_csv(dir + "/out/populationTable.csv",header=False)
+pd.DataFrame(countryTable).to_csv(dir + "/out/countryTable.csv",header=False)
+pd.DataFrame(dateTable).to_csv(dir + "/out/dateTable.csv",header=False)
+pd.DataFrame(livingConditionTable).to_csv(dir + "/out/livingConditionTable.csv",header=False)
+pd.DataFrame(educationTable).to_csv(dir + "/out/educationTable.csv",header=False)
+pd.DataFrame(healthTable).to_csv(dir + "/out/healthTable.csv",header=False)
+pd.DataFrame(eventsTable).to_csv(dir + "/out/eventsTable.csv",header=False)
