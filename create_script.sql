@@ -1,14 +1,14 @@
 CREATE TABLE IF NOT EXISTS "CSI4142".country
 (
     country_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     country_code VARCHAR(255),
-    land_area INTEGER,
-    access_electricity INTEGER,
+    land_area NUMERIC,
+    access_electricity NUMERIC,
     export_percent_gdp NUMERIC,
     import_percent_gdp NUMERIC,
     cell_subscriptions NUMERIC,
-    total_population INTEGER,
+    total_population NUMERIC,
     population_growth NUMERIC,
     forest_area NUMERIC,
     gdp_growth NUMERIC,
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".country
 CREATE TABLE IF NOT EXISTS "CSI4142".date_
 (
     date_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     quarter INTEGER,
     month_ VARCHAR(255),
     year_ INTEGER,
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".date_
 CREATE TABLE IF NOT EXISTS "CSI4142".population_
 (
     population_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     life_expectancy_female NUMERIC,
     life_expectancy_male NUMERIC,
     life_expectancy NUMERIC,
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".population_
 CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
 (
     living_conditions_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     access_electricity NUMERIC,
     coverage_social_insurance_programs NUMERIC,
     coverage_social_protection_and_labor_programs NUMERIC,
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
     access_to_fuels_for_cooking NUMERIC,
     final_consumption_expenditure NUMERIC,
     fossil_fuel_consumption NUMERIC,
-    hospital_beds_per_1000 INTEGER,
+    hospital_beds_per_1000 NUMERIC,
     households_consumption_expenditure NUMERIC,
     investment_water_and_sanitation NUMERIC,
     investment_transport NUMERIC,
@@ -75,13 +75,13 @@ CREATE TABLE IF NOT EXISTS "CSI4142".living_conditions
 CREATE TABLE IF NOT EXISTS "CSI4142".education
 (
     education_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     enrollment_primary NUMERIC,
     enrollment_secondary NUMERIC,
     enrollment_tertiary NUMERIC,
     literacy_rate NUMERIC,
     literacy_rate_youth NUMERIC,
-    compulsory_education_years INTEGER,
+    compulsory_education_years NUMERIC,
     current_education_expenditure NUMERIC,
     educational_attainment_at_least_bachelor NUMERIC,
     educational_attainment_at_least_completed_post_secondary NUMERIC,
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".education
 CREATE TABLE IF NOT EXISTS "CSI4142".health
 (
     health_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     birth_rate NUMERIC,
     capital_health_expenditure NUMERIC,
     cause_of_death_non_communicable_injury NUMERIC,
@@ -123,7 +123,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".health
 CREATE TABLE IF NOT EXISTS "CSI4142".event_
 (
     event_id SERIAL PRIMARY KEY,
-    surrogate_key INTEGER,
+    surrogate_key INTEGER UNIQUE,
     event_name VARCHAR(255),
     event_category VARCHAR(255),
     date_start DATE,
@@ -134,7 +134,6 @@ CREATE TABLE IF NOT EXISTS "CSI4142".event_
 
 CREATE TABLE IF NOT EXISTS "CSI4142".fact_table
 (
-    fact_table_id SERIAL PRIMARY KEY,
     date_surrogate INTEGER,
     country_surrogate INTEGER,
     population_surrogate INTEGER,
@@ -146,18 +145,18 @@ CREATE TABLE IF NOT EXISTS "CSI4142".fact_table
     human_development_index NUMERIC,
     education_index NUMERIC,
     FOREIGN KEY(country_surrogate) 
-    REFERENCES country(surrogate_key),
+    REFERENCES "CSI4142".country(surrogate_key),
     FOREIGN KEY(date_surrogate)
-    REFERENCES date_(surrogate_key),
+    REFERENCES "CSI4142".date_(surrogate_key),
     FOREIGN KEY(population_surrogate) 
-    REFERENCES population_(surrogate_key),
+    REFERENCES "CSI4142".population_(surrogate_key),
     FOREIGN KEY(living_conditions_surrogate) 
-    REFERENCES living_conditions(surrogate_key),
+    REFERENCES "CSI4142".living_conditions(surrogate_key),
     FOREIGN KEY(education_surrogate) 
-    REFERENCES education(surrogate_key),
+    REFERENCES "CSI4142".education(surrogate_key),
     FOREIGN KEY(health_surrogate) 
-    REFERENCES health(surrogate_key),
+    REFERENCES "CSI4142".health(surrogate_key),
     FOREIGN KEY(event_surrogate) 
-    REFERENCES event_(surrogate_key),
+    REFERENCES "CSI4142".event_(surrogate_key),
 	CONSTRAINT fact_pkey PRIMARY KEY(country_surrogate,date_surrogate,population_surrogate,living_conditions_surrogate,education_surrogate,health_surrogate,event_surrogate)
 )

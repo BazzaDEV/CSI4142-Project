@@ -206,6 +206,7 @@ for year in range(2005,2021):
             if(flag):
                 #eventsTable
                 eventSK+=1
+                event=[[eventSK]] + event
                 eventsTable+=[event]
 
             #factTable
@@ -222,13 +223,19 @@ for year in range(2005,2021):
                 getIndexPoint(incomeIndex,year,country)
             ]]
 
+for table in [countryTable,populationTable,educationTable,factTable,healthTable,livingConditionTable]:
+    for i in range(len(table)):
+        for j in range(len(table[i])):
+            if table[i][j]=="..":
+                table[i][j] = None
+
 ############all 8 tables need to be output to csv here#################
 
-pd.DataFrame(factTable).to_csv(dir + "/out/factTable.csv",header=False)
-pd.DataFrame(populationTable).to_csv(dir + "/out/populationTable.csv",header=False)
-pd.DataFrame(countryTable).to_csv(dir + "/out/countryTable.csv",header=False)
-pd.DataFrame(dateTable).to_csv(dir + "/out/dateTable.csv",header=False)
-pd.DataFrame(livingConditionTable).to_csv(dir + "/out/livingConditionTable.csv",header=False)
-pd.DataFrame(educationTable).to_csv(dir + "/out/educationTable.csv",header=False)
-pd.DataFrame(healthTable).to_csv(dir + "/out/healthTable.csv",header=False)
-pd.DataFrame(eventsTable).to_csv(dir + "/out/eventsTable.csv",header=False)
+pd.DataFrame(factTable).to_csv(dir + "/out/factTable.csv",header=False,index=False)
+pd.DataFrame(populationTable).to_csv(dir + "/out/populationTable.csv",header=False,index=False)
+pd.DataFrame(countryTable).to_csv(dir + "/out/countryTable.csv",header=False,index=False)
+pd.DataFrame(dateTable).to_csv(dir + "/out/dateTable.csv",header=False,index=False)
+pd.DataFrame(livingConditionTable).to_csv(dir + "/out/livingConditionTable.csv",header=False,index=False)
+pd.DataFrame(educationTable).to_csv(dir + "/out/educationTable.csv",header=False,index=False)
+pd.DataFrame(healthTable).to_csv(dir + "/out/healthTable.csv",header=False,index=False)
+pd.DataFrame(eventsTable).to_csv(dir + "/out/eventsTable.csv",header=False,index=False)
