@@ -59,16 +59,16 @@ GROUP BY (P.unemployment_rate,C.country_code, E.literacy_rate, D.month_,D.year_,
 ORDER BY D.month_,D.year_,D.decade
 
 --population compared to export_gdp, ordered by year and income index--
-SELECT F.income_index, Co.export_percent_gdp, Co.population D.year_
+SELECT F.income_index, Co.export_percent_gdp, Co.total_population, D.year_
 FROM "CSI4142".fact_table as F, "CSI4142".country as Co, "CSI4142".date_ as D
-WHERE F.country_surrogate=co.surrogate_key and F.education_surrogate=E.surrogate_key and F.date_surrogate=D.surrogate_key
-ORDER BY D.year_, F.income_index
+WHERE F.country_surrogate=co.surrogate_key and F.date_surrogate=D.surrogate_key and Co.country_code in ('CAN','USA','MEX')
+ORDER BY D.month_,D.year_,D.decade
 
 --gdp growth compared to population growth, ordered by year and income index
 SELECT F.income_index, Co.gdp_growth, Co.population_growth, D.year_
 FROM "CSI4142".fact_table as F, "CSI4142".country as Co, "CSI4142".date_ as D
-WHERE F.country_surrogate=co.surrogate_key and F.education_surrogate=E.surrogate_key and F.date_surrogate=D.surrogate_key
-ORDER BY D.year_, F.income_index
+WHERE F.country_surrogate=co.surrogate_key and F.date_surrogate=D.surrogate_key and Co.country_code in ('CAF','MLI','TCD')
+ORDER BY D.month_,D.year_,D.decade
 
 
 ----- Part 2: Explorative Operations -----
