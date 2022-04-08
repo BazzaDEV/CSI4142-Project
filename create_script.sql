@@ -143,7 +143,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".fact_table
     event_surrogate INTEGER,
     quality_of_life_index NUMERIC,
     human_development_index NUMERIC,
-    education_index NUMERIC,
+    income_index NUMERIC,
     FOREIGN KEY(country_surrogate) 
     REFERENCES "CSI4142".country(surrogate_key),
     FOREIGN KEY(date_surrogate)

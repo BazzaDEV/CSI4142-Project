@@ -209,13 +209,13 @@ for year in range(2005,2021):
                 #eventsTable
                 eventSK+=1
                 ############################this doesn't work - need eventSK to be first column in eventsTable #################################
-                event=[[eventSK]] + event
+                event=  np.concatenate((np.array([eventSK]), event))
                 eventsTable+=[event]
 
             #factTable
             factTable+=[[
-                countrySK,
                 dateSK,
+                countrySK,
                 populationSK,
                 livingConditionSK,
                 educationSK,
