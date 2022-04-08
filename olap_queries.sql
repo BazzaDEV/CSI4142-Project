@@ -31,32 +31,32 @@ AND D.surrogate_key = F.date_surrogate
 AND D.year_ = 2000;
 
 -- c) Dice (2 queries)
-SELECT F.development_index, C.country_name, E.literacy_rate, D.year
-FROM fact_table as F, country as C, education as E, date as D
-WHERE F.country_id=C.country_id and F.education_id=E.education_id and F.date_id=D.date_id
-and C.country_name in ('Canada','Mexico','United States') and D.year=2015
-GROUP BY (F.development_index,C.country_name, E.literacy_rate, D.year)
+SELECT F.education_index,C.country_code, E.literacy_rate, D.year
+FROM fact_table as F, country as C, education as E, date_ as D
+WHERE F.country_surrogate=C.surrogate_key and F.education_surrogate=E.surrogate_key and F.date_surrogate=D.surrogate_key
+and C.country_code in ('CAN','MEX','USA') and D.year_=2015
+GROUP BY (F.education_index,C.country_code, E.literacy_rate, D.year_)
 
-SELECT F.development_index, C.country_name, L.final_consumption_expenditure, D.year
-FROM fact_table as F, country as C, living_condition as L, date as D
-WHERE F.country_id=C.country_id and F.living_condition_id=L.living_condition_id and F.date_id=D.date_id
-and C.country_name in ('Ukraine','Iran','Thailand') and D.year=2010
-GROUP BY (F.development_index,C.country_name, L.final_consumption_expenditure, D.year)
+SELECT F.human_development_index, C.country_code, L.final_consumption_expenditure, D.year
+FROM fact_table as F, country as C, living_conditions as L, date_ as D
+WHERE F.country_surrogate=C.surrogate_key and F.living_conditions_surrogate=L.surrogate_key and F.date_surrogate=D.surrogate_key
+and C.country_code in ('UKR','IRN','THA') and D.year_=2010
+GROUP BY (F.human_development_index,C.country_code, L.final_consumption_expenditure, D.year_)
 
 -- d) Combining OLAP Operations (4 queries)
-SELECT P.net_migration,C.country_name,D.month,D.year,D.decade
-FROM fact_table as F, country as C, population as P, date as D
-WHERE F.country_id=C.country_id and F.population_id=P.population_id and F.date_id=D.date_id
-and C.country_name in ('Canada','Mexico','United States')
-GROUP BY (P.net_migration,C.country_name, E.literacy_rate, D.month,D.year,D.decade)
-ORDER BY D.month,D.year,D.decade
+SELECT P.net_migration,C.country_code,D.month_,D.year_,D.decade
+FROM fact_table as F, country as C, population_ as P, date_ as D
+WHERE F.country_surrogate=C.surrogate_key and F.population_surrogate=P.surrogate_key and F.date_surrogate=D.surrogate_key
+and C.country_code in ('CAN','MEX','USA')
+GROUP BY (P.net_migration,C.country_name, E.literacy_rate, D.month_,D.year_,D.decade)
+ORDER BY D.month_,D.year_,D.decade
 
-SELECT P.unemployment_rate,C.country_name,D.month,D.year,D.decade
-FROM fact_table as F, country as C, population as P, date as D
-WHERE F.country_id=C.country_id and F.population_id=P.population_id and F.date_id=D.date_id
-and C.country_name in ('Ukraine','Thailand','Iran')
-GROUP BY (P.unemployment_rate,C.country_name, E.literacy_rate, D.month,D.year,D.decade)
-ORDER BY D.month,D.year,D.decade
+SELECT P.unemployment_rate,C.country_code,D.month_,D.year_,D.decade
+FROM fact_table as F, country as C, population_ as P, date_ as D
+WHERE F.country_surrogate=C.surrogate_key and F.population_surrogate=P.surrogate_key and F.date_surrogate=D.surrogate_key
+and C.country_code in ('UKR','IRN','THA')
+GROUP BY (P.unemployment_rate,C.country_code, E.literacy_rate, D.month_,D.year_,D.decade)
+ORDER BY D.month_,D.year_,D.decade
 
 --population compared to export_gdp, ordered by year and income index--
 SELECT F.income_index, Co.export_percent_gdp, Co.population D.year_
