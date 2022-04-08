@@ -31,10 +31,44 @@ AND D.surrogate_key = F.date_surrogate
 AND D.year_ = 2000;
 
 -- c) Dice (2 queries)
+SELECT F.development_index, C.country_name, E.literacy_rate, D.year
+FROM fact_table as F, country as C, education as E, date as D
+WHERE F.country_id=C.country_id and F.education_id=E.education_id and F.date_id=D.date_id
+and C.country_name in ('Canada','Mexico','United States') and D.year=2015
+GROUP BY (F.development_index,C.country_name, E.literacy_rate, D.year)
 
+SELECT F.development_index, C.country_name, L.final_consumption_expenditure, D.year
+FROM fact_table as F, country as C, living_condition as L, date as D
+WHERE F.country_id=C.country_id and F.living_condition_id=L.living_condition_id and F.date_id=D.date_id
+and C.country_name in ('Ukraine','Iran','Thailand') and D.year=2010
+GROUP BY (F.development_index,C.country_name, L.final_consumption_expenditure, D.year)
 
 -- d) Combining OLAP Operations (4 queries)
+SELECT P.net_migration,C.country_name,D.month,D.year,D.decade
+FROM fact_table as F, country as C, population as P, date as D
+WHERE F.country_id=C.country_id and F.population_id=P.population_id and F.date_id=D.date_id
+and C.country_name in ('Canada','Mexico','United States')
+GROUP BY (P.net_migration,C.country_name, E.literacy_rate, D.month,D.year,D.decade)
+ORDER BY D.month,D.year,D.decade
 
+SELECT P.unemployment_rate,C.country_name,D.month,D.year,D.decade
+FROM fact_table as F, country as C, population as P, date as D
+WHERE F.country_id=C.country_id and F.population_id=P.population_id and F.date_id=D.date_id
+and C.country_name in ('Ukraine','Thailand','Iran')
+GROUP BY (P.unemployment_rate,C.country_name, E.literacy_rate, D.month,D.year,D.decade)
+ORDER BY D.month,D.year,D.decade
+
+--population compared to export_gdp, ordered by year and income index--
+SELECT F.income_index, Co.export_percent_gdp, Co.population D.year_
+FROM "CSI4142".fact_table as F, "CSI4142".country as Co, "CSI4142".date_ as D
+WHERE F.country_surrogate=co.surrogate_key and F.education_surrogate=E.surrogate_key and F.date_surrogate=D.surrogate_key
+ORDER BY D.year_, F.income_index
+
+--gdp growth compared to population growth, ordered by year and income index
+SELECT F.income_index, Co.gdp_growth, Co.population_growth, D.year_
+FROM "CSI4142".fact_table as F, "CSI4142".country as Co, "CSI4142".date_ as D
+WHERE F.country_surrogate=co.surrogate_key and F.education_surrogate=E.surrogate_key and F.date_surrogate=D.surrogate_key
+ORDER BY D.year_, F.income_index
 
 
 ----- Part 2: Explorative Operations -----
