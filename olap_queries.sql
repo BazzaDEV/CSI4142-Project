@@ -10,24 +10,24 @@ ORDER BY D.year_,D.month_,D.decade
 SELECT  C.country_code, AVG(F.income_index),D.year_,D.month_,D.decade
 FROM country as C,date_ as D, fact_table as F
 WHERE C.surrogate_key = F.country_surrogate AND D.surrogate_key = F.date_surrogate
-GROUP BY (C.country_code, AVG(F.income_index),D.year_,D.month_,D.decade)
+GROUP BY (C.country_code,D.year_,D.month_,D.decade)
 ORDER BY D.year_,D.month_,D.decade
 
 -- b) Slice (1 query)
-SELECT  C.country_code,F.quality_of_life_index,F.human_development_index,F.index_index
+SELECT  C.country_code,F.quality_of_life_index,F.human_development_index,F.income_index
 FROM country as C, date_ as D, fact_table as F
 WHERE C.surrogate_key = F.country_surrogate AND D.surrogate_key = F.date_surrogate 
 AND D.year_ in (2005,2006,2007,2008,2009,2010)
 GROUP BY (C.country_code ,F.quality_of_life_index,F.human_development_index,F.income_index)
 
 -- c) Dice (2 queries)
-SELECT F.income_index,C.country_code, E.literacy_rate, D.year
+SELECT F.income_index,C.country_code, E.literacy_rate, D.year_
 FROM fact_table as F, country as C, education as E, date_ as D
 WHERE F.country_surrogate=C.surrogate_key and F.education_surrogate=E.surrogate_key and F.date_surrogate=D.surrogate_key
-and C.country_code in ('CAN','MEX','USA') and D.year_in (2015,2016,2017,2018,2019,2020)
+and C.country_code in ('CAN','MEX','USA') and D.year_ in (2015,2016,2017,2018,2019,2020)
 GROUP BY (F.income_index,C.country_code, E.literacy_rate, D.year_)
 
-SELECT F.human_development_index, C.country_code, L.final_consumption_expenditure, D.year
+SELECT F.human_development_index, C.country_code, L.final_consumption_expenditure, D.year_
 FROM fact_table as F, country as C, living_conditions as L, date_ as D
 WHERE F.country_surrogate=C.surrogate_key and F.living_conditions_surrogate=L.surrogate_key and F.date_surrogate=D.surrogate_key
 and C.country_code in ('UKR','IRN','THA') and D.year_ in (2010,2011,2012,2013,2014)
@@ -38,14 +38,14 @@ SELECT P.net_migration,C.country_code,D.month_,D.year_,D.decade
 FROM fact_table as F, country as C, population_ as P, date_ as D
 WHERE F.country_surrogate=C.surrogate_key and F.population_surrogate=P.surrogate_key and F.date_surrogate=D.surrogate_key
 and C.country_code in ('CAN','MEX','USA')
-GROUP BY (P.net_migration,C.country_name, E.literacy_rate, D.month_,D.year_,D.decade)
+GROUP BY (P.net_migration,C.country_code, D.month_,D.year_,D.decade)
 ORDER BY D.month_,D.year_,D.decade
 
 SELECT P.unemployment_rate,C.country_code,D.quarter,D.year_,D.decade
 FROM fact_table as F, country as C, population_ as P, date_ as D
 WHERE F.country_surrogate=C.surrogate_key and F.population_surrogate=P.surrogate_key and F.date_surrogate=D.surrogate_key
 and C.country_code in ('UKR','IRN','THA')
-GROUP BY (P.unemployment_rate,C.country_code,D.quarter,D.year_,D.decade)
+GROUP BY (P.unemployment_rate,C.country_code,D.quarter,D.month_,D.year_,D.decade)
 ORDER BY D.month_,D.year_,D.decade
 
 --population compared to export_gdp, ordered by year and income index--
@@ -68,12 +68,13 @@ ORDER BY D.year_,D.quarter,D.decade
 ----- Part 2: Explorative Operations -----
 
 -- a) Iceberg Query
-SELECT  C.country_code,AVG(F.quality_of_life_index) as quality_of_life_index
+SELECT  C.country_code,AVG(F.quality_of_life_index) as avg_quality_of_life_index
 FROM country as C, date_ as D, fact_table as F
 WHERE C.surrogate_key = F.country_surrogate AND D.surrogate_key = F.date_surrogate
 AND D.decade = 2010
-ORDER BY quality_of_life_index DESC
-OPTIMIZE FOR 3 ROWS;
+GROUP BY C.country_code
+ORDER BY avg_quality_of_life_index DESC
+LIMIT 3;
 
 -- b) Windowing Query
 SELECT Co.country_code, D.year_, E.enrollment_primary, avg(E.enrollment_primary)
