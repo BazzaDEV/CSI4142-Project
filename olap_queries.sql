@@ -3,14 +3,15 @@
 -- a) Drill Down, Roll Up (2 queries)
 SELECT  C.country_code
        ,D.year_
+	,D.decade
        ,F.quality_of_life_index
        ,F.human_development_index
        ,F.income_index
 FROM country C, date_ D, fact_table F
 WHERE C.surrogate_key = F.country_surrogate
 AND D.surrogate_key = F.date_surrogate
-GROUP BY  C.country_code, D.year_, F.quality_of_life_index, F.human_development_index, F.income_index
-ORDER BY C.country_code, D.year_;
+GROUP BY  C.country_code, D.year_, D.decade, F.quality_of_life_index, F.human_development_index, F.income_index
+ORDER BY C.country_code, D.year_, D.decade;
 
 SELECT  C.country_code
        ,AVG(F.human_development_index)
