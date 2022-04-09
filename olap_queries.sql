@@ -2,21 +2,22 @@
 
 -- a) Drill Down, Roll Up (2 queries)
 SELECT  C.country_code
-       ,D.year
+       ,D.year_
        ,F.quality_of_life_index
        ,F.human_development_index
-       ,F.education_index
+       ,F.income_index
 FROM country C, date_ D, fact_table F
 WHERE C.surrogate_key = F.country_surrogate
 AND D.surrogate_key = F.date_surrogate
-GROUP BY  C.country_code, D.year;
+GROUP BY  C.country_code, D.year_, F.quality_of_life_index, F.human_development_index, F.income_index
+ORDER BY C.country_code, D.year_;
 
 SELECT  C.country_code
-       ,AVG(F.education_index)
-       ,SUM(P.current_education_expenditure)
-FROM country C, population_ P date_ D, fact_table F
+       ,AVG(F.human_development_index)
+       ,SUM(E.current_education_expenditure)
+FROM country C, education E, date_ D, fact_table F
 WHERE C.surrogate_key = F.country_surrogate
-AND P.surrogate_key = F.population_surrogate
+AND E.surrogate_key = F.education_surrogate
 AND D.surrogate_key = F.date_surrogate
 GROUP BY C.country_code;
 
