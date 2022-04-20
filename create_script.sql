@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS "CSI4142".date_
     surrogate_key INTEGER UNIQUE,
     quarter INTEGER,
     month_ VARCHAR(255),
-    year_ INTEGER,
+    year_ NUMERIC,
     decade INTEGER
 );
 
@@ -43,7 +43,6 @@ CREATE TABLE IF NOT EXISTS "CSI4142".population_
     rural_population_growth NUMERIC,
     rural_poverty_headcount_ratio NUMERIC,
     labor_force_female NUMERIC,
-    labor_force_male NUMERIC GENERATED ALWAYS AS (100 - labor_force_female) STORED,
     labor_force_total NUMERIC,
     unemployment_rate NUMERIC,
     unemployment_rate_female NUMERIC,
